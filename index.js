@@ -1,15 +1,6 @@
-console.log("Hey...");
-var readlinesync = require('readline-sync');
-var userName = readlinesync.question("Please enter your name ");
-console.log("Welcome " + userName.toUpperCase() + "!");
-var userAge = readlinesync.question("Am I older than 25? Yes/No? ");
-var score = 0;
-if(userAge === "Yes"){
-  console.log("You are right");
-   score = score+1;
+
+function numadd(numOne1,numTwo2){
+  var sum = numOne1 + numTwo2;
+  return sum;
 }
-else{
-  console.log("You are Wrong");
-  score = score-1;
-}
-console.log("Your score is " + score);
+numadd(1,2);
