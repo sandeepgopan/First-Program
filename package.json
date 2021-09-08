@@ -1,0 +1,23 @@
+{
+  "name": "First-Program",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepgopan/First-Program.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeepgopan/First-Program/issues"
+  },
+  "homepage": "https://github.com/sandeepgopan/First-Program#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
